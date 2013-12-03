@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93CD948C184DFA2A00F3F2F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93CD948B184DFA2A00F3F2F8 /* Default-568h@2x.png */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -73,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93CD948B184DFA2A00F3F2F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB9FDC4115E9872D00B3713E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -182,6 +184,7 @@
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
+				93CD948B184DFA2A00F3F2F8 /* Default-568h@2x.png */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
 				CB9FDC4515E9872D00B3713E /* GuildBrowser */,
@@ -449,6 +452,7 @@
 				CB9FDD0E15E9B31400B3713E /* profile_bg.png in Resources */,
 				CB9FDD0F15E9B31400B3713E /* profile_bg@2x.png in Resources */,
 				CB9FDD1015E9B31400B3713E /* profile_imageframe.png in Resources */,
+				93CD948C184DFA2A00F3F2F8 /* Default-568h@2x.png in Resources */,
 				CB9FDD1115E9B31400B3713E /* profile_imageframe@2x.png in Resources */,
 				CB9FDD1215E9B31400B3713E /* profile_shield.png in Resources */,
 				CB9FDD1315E9B31400B3713E /* profile_shield@2x.png in Resources */,
