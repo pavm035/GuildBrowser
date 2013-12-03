@@ -90,7 +90,7 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Adhoc"
+      buildConfiguration = "Debug"
       customArchiveName = "GBAdhoc"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
