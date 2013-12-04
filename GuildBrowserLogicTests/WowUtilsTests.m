@@ -6,12 +6,27 @@
 //  Copyright (c) 2013 Charlie Fulton. All rights reserved.
 //
 
-#import "WowUtilsTests.h"
+#import <SenTestingKit/SenTestingKit.h>
 #import "WowUtils.h"
+
+@interface WowUtilsTests : SenTestCase
+
+@end
 
 @implementation WowUtilsTests
 
-// 1
+- (void)setUp
+{
+    [super setUp];
+    // Put setup code here. This method is called before the invocation of each test method in the class.
+}
+
+- (void)tearDown
+{
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [super tearDown];
+}
+
 -(void)testCharacterClassNameLookup
 {
     // 2
@@ -42,5 +57,6 @@
     STAssertFalse([@"Purple" isEqualToString:[WoWUtils qualityFromQualityType:10]],nil);
     // add the rest as an exercise
 }
+
 
 @end
